@@ -20,7 +20,7 @@ body {
 }
 .container {
 /*  background-color: #fff;*/
-  background-color: rgba(255, 255, 255, 1.60); /* Добавлено значение прозрачности */
+  background-color: rgba(255, 255, 255, 0.9); /* Добавлено значение прозрачности */
   
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -93,9 +93,7 @@ body {
 .sign-in {
   left: 0;
   width: 50%;
-  z-index: 2;
-  background-color: rgba(255, 255, 255, 0.9); /* Добавлено значение прозрачности */
-  
+  z-index: 2;  
 }
 .container.active .sign-in {
   transform: translateX(100%);
@@ -105,7 +103,6 @@ body {
   width: 50%;
   opacity: 0;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.9); /* Добавлено значение прозрачности */
   
 }
 .container.active .sign-up {
