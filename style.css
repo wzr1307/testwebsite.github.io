@@ -61,7 +61,9 @@ body {
   border-color: #fff;
 }
 .container form {
-  background-color: #fff;
+/*  background-color: #fff;*/
+  background-color: rgba(255, 255, 255, 0.5); /* Прозрачный фон */
+
   display: flex;
   align-items: center;
   justify-content: center;
