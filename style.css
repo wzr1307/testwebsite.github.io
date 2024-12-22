@@ -9,7 +9,7 @@
 body {
 /*  background-color: #c9d6ff;*/
   /* Здесь можно поменять фон на изображение */
-  background-image: url('test/reg.jpg'); /* Укажите путь к вашему изображению */
+  background-image: url('reg.jpg'); /* Укажите путь к вашему изображению */
   background-size: cover;
   background-position: center;
   display: flex;
