@@ -7,9 +7,9 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #c9d6ff;
+/*  background-color: #c9d6ff;*/
   /* Здесь можно поменять фон на изображение */
-  background-image: url('path/to/your/image.jpg'); /* Укажите путь к вашему изображению */
+  background-image: url('test/reg.jpg'); /* Укажите путь к вашему изображению */
   background-size: cover;
   background-position: center;
   display: flex;
