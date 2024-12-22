@@ -19,7 +19,7 @@ body {
   height: 100vh;
 }
 .container {
-  background-color: #fff;
+/*  background-color: #fff;*/
   background-color: rgba(255, 255, 255, 0.9); /* Добавлено значение прозрачности */
   
   border-radius: 30px;
