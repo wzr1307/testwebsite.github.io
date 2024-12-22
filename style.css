@@ -19,7 +19,7 @@ body {
   height: 100vh;
 }
 .container {
-  background-color: rgba(255, 255, 255, 0.3); /* Прозрачный фон */
+  background-color: rgba(255, 255, 255, 0.1); /* Прозрачный фон */
   
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -61,7 +61,7 @@ body {
   border-color: #fff;
 }
 .container form {
-  background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон */
+  background-color: rgba(255, 255, 255, 0.9); /* Прозрачный фон */
 
 /*  background-color: #fff; */
   display: flex;
@@ -138,10 +138,8 @@ body {
     transform : translateX(-100%);
     border-radius :0px ;
 }
-.toggle {
-    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон */
-  
-   /* background-color:#512da8 ; */
+.toggle {  
+    background-color:#512da8 ; 
     height :100% ;
     background :linear-gradient(to right,#5c6bc0,#512da8);
     color :#fff ;
