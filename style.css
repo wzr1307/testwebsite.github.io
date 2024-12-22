@@ -61,7 +61,9 @@ body {
   border-color: #fff;
 }
 .container form {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3); /* Прозрачный фон */
+
+/*  background-color: #fff; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,8 +96,6 @@ body {
   z-index: 2;  
 }
 .container.active .sign-in {
-  background-color: rgba(255, 255, 255, 0.3); /* Прозрачный фон */
-
   transform: translateX(100%);
 }
 .sign-up {
