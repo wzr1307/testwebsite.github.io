@@ -7,8 +7,11 @@
 
 body {
  /*background: #000;*/
-  background-image: url('gameMenu.jpg');
-
+    background-image: url('gameMenu.jpg');
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Запрещает повторение изображения */
+    background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь экран */
+}
 }
 
 a {
