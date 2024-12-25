@@ -6,12 +6,12 @@
 }
 
 body {
- /*background: #000;*/
+ /*   margin: 0;  Убирает отступы у body */
+    height: 100vh; /* Задает высоту body равной высоте окна просмотра */
     background-image: url('gameMenu.jpg');
     background-position: center; /* Центрирует изображение */
     background-repeat: no-repeat; /* Запрещает повторение изображения */
-    background-size: contain; /* Изображение будет масштабироваться, чтобы покрыть весь экран */
-}
+    background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь экран */
 }
 
 a {
