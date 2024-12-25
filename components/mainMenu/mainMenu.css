@@ -6,7 +6,6 @@
 }
 
 body {
- /*   margin: 0;  Убирает отступы у body */
     height: 100vh; /* Задает высоту body равной высоте окна просмотра */
     background-image: url('gameMenu.jpg');
     background-position: center; /* Центрирует изображение */
@@ -45,7 +44,7 @@ a:active, a:hover, a:link, a:visited {
   font-weight: 500;
 }
 .menu-overlay nav ul li a {
-  color: #101010;
+  color: red; /*цвет текста*/
 }
 .menu-overlay nav ul li {
   position: relative;
