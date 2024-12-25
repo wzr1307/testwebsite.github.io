@@ -37,7 +37,7 @@ a:active, a:hover, a:link, a:visited {
 }
 .menu-overlay nav ul {
   list-style: none;
-  font-size: 6.5rem;
+  font-size: 5rem; /* размер шрифта */
   text-transform: uppercase;
   font-weight: 500;
 }
