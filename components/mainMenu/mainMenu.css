@@ -44,7 +44,7 @@ a:active, a:hover, a:link, a:visited {
   font-weight: 500;
 }
 .menu-overlay nav ul li a {
-  color: red; /*цвет текста*/
+  color: #486070; /*цвет текста*/
 }
 .menu-overlay nav ul li {
   position: relative;
