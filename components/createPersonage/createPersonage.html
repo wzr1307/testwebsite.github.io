@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример страницы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Добро пожаловать на мою страницу!</h1>
+    <p>Нажмите на кнопку ниже, чтобы увидеть сообщение.</p>
+    
+    <button onclick="showMessage()">Нажми меня!</button>
+
+    <script>
+        function showMessage() {
+            alert("Привет! Вы нажали на кнопку!");
+        }
+    </script>
+
+</body>
+</html>
