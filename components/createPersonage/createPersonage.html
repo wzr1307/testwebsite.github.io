@@ -11,7 +11,7 @@
 <!-- partial:index.partial.html -->
 <form class="my-form">
   <div class="container">
-    <h1>Get in touch!</h1>
+    <h1>Создание персонажа для RP игры.</h1>
     <ul>
 
         
@@ -23,16 +23,27 @@
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="email" placeholder="Email" required>  
-          <input type="tel" placeholder="Phone">
+          <input type="number" placeholder="Возраст персонажа" required min="0">
+      
+          <input type="tel" placeholder="...">
         </div>
-      </li>    
+      </li>
+      
+      <li>
+        <select>
+          <option selected disabled>-- Пожалуйста, выберите пол персонажа --</option>
+          <option>Мужской</option>
+          <option>Женский</option>
+        </select>
+      </li>
+
+     
       <li>
         <textarea placeholder="Message"></textarea>
       </li>   
       <li>
         <input type="checkbox" id="terms">
-        <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+        <label for="terms">Я прочитал и согласен с<a href="">правилами проекта.</a></label>
       </li>  
       <li>
         <div class="grid grid-3">
