@@ -95,7 +95,7 @@ body {
   height: 7px;
   border-left: 3px solid red;
   border-bottom: 3px solid red;
-  transform: rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 
