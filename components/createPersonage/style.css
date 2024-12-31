@@ -185,12 +185,16 @@ body {
 
 /* FORM BTNS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* DELETE */
 .my-form .required-msg {
   display: none;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
     no-repeat center left / 15px 15px;
   padding-left: 20px;
 }
+
+
 
 .my-form .btn-grid {
   position: relative;
