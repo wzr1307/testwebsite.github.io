@@ -11,45 +11,42 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="form">
-    
-      <ul class="tab-group">
+    <ul class="tab-group">
         <li class="tab active"><a href="#signup">Sign Up</a></li>
         <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
+    </ul>
       
       <div class="tab-content">
         <div id="signup">   
           <h1>Sign Up for Free</h1>
           
-          <form action="/" method="post">
-          
-          <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-          </div>
-
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"/>Get Started</button>
-          
+          <form action="components/mainMenu/mainMenu.html" method="post">
+              <div class="field-wrap">
+                  <label>
+                      First Name<span class="req">*</span>
+                  </label>
+                  <input type="text" required autocomplete="off" />
+              </div>
+              
+              <div class="field-wrap">
+                  <label>
+                      Email Address<span class="req">*</span>
+                  </label>
+                  <input type="email"required autocomplete="off"/>
+              </div>
+              
+              <div class="field-wrap">
+                  <label>
+                      Set A Password<span class="req">*</span>
+                  </label>
+                  <input type="password"required autocomplete="off"/>
+              </div>
+              <button type="submit" class="button button-block">Get Started</button>         
           </form>
 
         </div>
-        
+
+          
         <div id="login">   
           <h1>Welcome Back!</h1>
           
