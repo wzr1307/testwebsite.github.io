@@ -85,7 +85,6 @@ body {
   border: 3px solid red;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 5px; 
 }
 .arrow:after {
   position: absolute;
@@ -95,6 +94,8 @@ body {
   display: block;
   width: 7px;
   height: 7px;
+  margin-left: 5px; 
+  
   border-left: 3px solid red;
   border-bottom: 3px solid red;
   transform: translate(-50%, -50%) rotate(45deg);
